@@ -1,0 +1,1 @@
+Olá esse é um Web projeto do Curso Técnico em Informática no senac, onde foi nos pedido primeiramente para desenvolver uma logo para um supermercado, no meu caso eu pensei em um supermercado vegano, por isso o nome SuperVeggie.

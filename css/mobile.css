@@ -1,0 +1,14 @@
+#navbar {
+    height: 180px;
+}
+
+#navbar-container {
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+#navbar-items {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}

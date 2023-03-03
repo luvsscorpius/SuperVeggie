@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.Logo {
+    width: 200px;
+}
+
+* {
+    text-decoration: none;
+    background-color: aliceblue;
+}
+
+.box_cadastro {
+    width: 320px;
+    max-width: 100%;
+    margin: auto;
+    padding: 1em;
+    margin-top: -100px;
+}
+
+.title_cadastro {
+    font-family: 'Merriweather' serif;
+    color: #A9BF04;
+    width: 100%;
+    float: left;
+    margin-bottom: 0.3em;
+    font-size: 2.3em;
+    text-align: center;
+    padding-bottom: 0.3em;
+    margin-top: 75px;
+}
+
+.hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+
+}
+
+input {
+    background-image: none;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    -webkit-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+
+.form {
+    width: 100%;
+    display: block;
+    float: left;
+}
+
+.form input[type="password"],
+.form input[type="email"],  
+.form input[type="tel"],  
+.form input[type="date"],  
+.form input[type="text"],
+.form input[type="submit"] {
+  width: 100%;
+}
+
+.form_field {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.form_input {
+    -webkit-box-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+    border: none;
+
+}
+
+
+.cadastro {color: #000;}
+
+.cadastro label,
+.cadastro input[type="text"],
+.cadastro input[type="email"],  
+.cadastro input[type="tel"],  
+.cadastro input[type="date"],  
+.cadastro input[type="password"],
+.cadastro input[type="submit"] {
+
+  border-radius:0.5em;
+  padding: 1rem;
+  border: none;
+
+}
+
+.cadastro label {
+    background-color: #A9BF04;
+    color: #eee;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.cadastro input[type="password"],
+.cadastro input[type="email"],
+.cadastro input[type="tel"],
+.cadastro input[type="date"],
+.cadastro input[type="text"] {
+    background-color: transparent;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.cadastro input[type="password"]:focus,
+.cadastro input[type="password"]:hover,
+.cadastro input[type="email"]:focus,
+.cadastro input[type="email"]:hover,
+.cadastro input[type="date"]:focus,
+.cadastro input[type="date"]:hover,
+.cadastro input[type="tel"]:focus,
+.cadastro input[type="tel"]:hover,
+.cadastro input[type="text"]:focus,
+.cadastro input[type="text"]:hover {
+  background-color: transparent;
+}
+
+.cadastro input[type="submit"] {
+
+    background-color: #A9BF04;
+    color: #eee;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+  
+  }
+
+.cadastro input[type="submit"]:focus,
+.cadastro input[type="submit"]:hover {
+  
+  background-color: #F2B705;
+
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperVeggie Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="../css/cad.css">
+</head>
+<body>
+    <nav><img src="../img/SuperVeggieLogo.png" alt="Logo SuperVeggie" class="Logo"></nav>
+    <div class="box_cadastro">
+        <h1 class="title_cadastro">Cadastro</h1>
+        <form method="get" action="../php/cadastro.php" class="form cadastro">
+            <div class="form_field">
+                <label for="cadastro_username">
+                <i class="icon icon-user-1"></i>
+                <span class="hidden">Nome</span>
+                </label>
+                <input autocomplete="off" id="cadastro_nome" type="text" name="nome" class="form_input" placeholder="Nome" required>
+            </div>
+
+            <div class="form_field">
+                <label for="cadastro_sobrenome">
+                    <i class="icon icon-user-1"></i>
+                    <span class="hidden">Sobrenome</span>
+                </label>
+                <input autocomplete="off" id="cadastro_sobrenome" type="text" name="sobrenome" class="form_input" placeholder="Sobrenome" required>
+            </div>
+
+            <div class="form_field">
+                <label class="cadastro_email">
+                    <i class="icon icon-user-1"></i>
+                    <span class="hidden">Email</span>
+                </label>
+                <input autocomplete="off" id="cadastro_email" type="email" name="email" class="form_input" placeholder="email@gmail.com" required>
+            </div>
+
+            <div class="form_field">
+                <label class="cadastro_senha">
+                    <i class="icon icon-user1"></i>
+                    <span class="hidden">Senha</span>
+                </label>
+                <input autocomplete="off" id="cadastro_senha" type="password" name="senha" class="form_input" placeholder="Senha" required>
+            </div>
+
+            <div class="form_field">
+                <label class="cadastro_confirmarsenha">
+                    <i class="icon icon-user1"></i>
+                    <span class="hidden">Confirmar Senha</span>
+                </label>
+                <input autocomplete="off" id="cadastro_confirmarsenha" type="password" name="confirmarsenha" class="form_input" placeholder="Confirmar senha" required>
+            </div>
+
+            <div class="form_field">
+                <label class="cadastro_tel">
+                    <i class="icon icon-user1"></i>
+                    <span class="hidden">Telefone</span>
+                </label>
+                <input autocomplete="off" id="cadastro_tel" type="text" name="tel" class="form_field" placeholder="(35) 999564913" required>
+            </div>
+
+            <div class="form_field">
+                <label class="cadastro_nasc">
+                    <i class="icon icon-user-1"></i>
+                    <span class="hidden">Data de nascimento</span>
+                </label>
+                <input autocomplete="off" id="cadastro_nasc" type="date" name="nasc" class="form_fiel" required>
+            </div>
+            
+            <div class="form_field">
+                <input type="submit" value="Cadastrar">
+            </div>
+    </div>
+</body>
+</html>
