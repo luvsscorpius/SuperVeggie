@@ -3,12 +3,12 @@
 }
 
 #navbar-container {
-    flex-direction: column;
+    flex-direction: row;
     padding: 20px 0;
 }
 
 #navbar-items {
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     align-items: center;
 }

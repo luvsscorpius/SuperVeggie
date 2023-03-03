@@ -5,23 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/styl.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" media="screen and (max-width: 1024px)" href="css/mobile.css">
     <title>SuperVeggie</title>
 </head>
 
 <body>
-    <nav id="navbar">
+    <nav class="navbar">
         <div id="navbar-container">
             <img src="/img/SuperVeggieLogo.png" alt="">
             <ul id="navbar-items">
-                <li>Inicio</li>
-                <li>Sobre</li>
-                <li>Cadastro</li>
-                <li>Login</li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="/pages/cad.html">Cadastre-se</a></li>
+                <li><a href="/php/login.php">Login</a></li>
             </ul>
         </div>
     </nav>
+    <header class="navbar">
+        <nav class="navbar-secoes">
+            <ul id="navbar-secoes-items">
+                <li>Todas as seções</li>
+                <li>Mercearia</li>
+                <li>Limpeza</li>
+                <li>Bebidas</li>
+                <li>Frios</li>
+                <li>Perfumaria</li>
+                <li>Hortifruti</li>
+                <li>Fit</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="produtos-home">
+        <div class="produtos-container">
+
+        </div>
+    </section>
 </body>
 
 </html>
