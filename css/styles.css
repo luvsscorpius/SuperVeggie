@@ -16,7 +16,7 @@ a {
     color: #eee;
 }
 
-.navbar {
+#navbar {
     width: 100%;
     height: 80px;
     background: aliceblue;
@@ -84,6 +84,12 @@ a {
 #navbar-secoes-items li:hover {
     transition: background 0.3s;
     background-color: #F2B705;
+}
+
+#navbar-categoria {
+    width: 100%;
+    height: 80px;
+    background: aliceblue;
 }
 
 
