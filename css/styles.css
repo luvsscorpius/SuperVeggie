@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
+:root {
+    --pattern-border-radius: 10px;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -34,11 +38,11 @@ a {
 
 #navbar-container img {
     width: 200px;
-    margin: -60px;
-    margin-top: -50px;
+    margin: -30px;
+    margin-top: -20px;
 }
 
-#navbar-items{
+#navbar-items {
     display: flex;
     list-style: none;
     text-transform: uppercase;
@@ -92,5 +96,59 @@ a {
     background: aliceblue;
 }
 
+/* SLideshow */
 
+.container-slide {
+    display: flex;
+    justify-content: space-between;
+    width: 75vw;
+    height: 60vh;
+    background-color: black;
+    margin: 5vh auto;
+    border-radius: var(--pattern-border-radius);
+    box-shadow: 0 20px 30px black;
+}
 
+.container-items {
+    position: absolute;
+    display: flex;
+    width: 75vw;
+    height: 60vh;
+    border-radius: var(--pattern-border-radius);
+    overflow: hidden;
+}
+
+.item {
+    width: 75vw;
+    height: 50vh;
+    transition: all 1s;
+}
+
+.item:first-child {
+    margin-left: -100%;
+}
+
+.item img {
+    width: 75vw;
+    height: 60vh;
+    border-radius: var(--pattern-border-radius);
+}
+
+.action-button {
+    font: bold 30px sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    color: #00000000;
+    user-select: none;
+    z-index: 1;
+}
+
+.action-button:hover {
+    color: #fff;
+    background-color: #00000055;
+    cursor: pointer;
+    transition: all 1s;
+    border-radius: var(--pattern-border-radius);
+}
